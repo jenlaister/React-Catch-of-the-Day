@@ -1,7 +1,6 @@
 import React from 'react';
 
-class Header extends React.Component {
-  render(){
+const Header = (props) => {
     return(
       <header className='top'>
         <h1>Catch
@@ -15,6 +14,5 @@ class Header extends React.Component {
       </header>
     )
   }
-}
 
 export default Header;
